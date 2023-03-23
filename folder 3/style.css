@@ -1,0 +1,61 @@
+body{
+    color: black;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#sports{
+    width: 20%;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: white;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+
+}
+
+#sports li{
+    text-align: center;
+    justify-content: center;
+    margin-right:40px;
+}
+#football{
+    text-align: center;
+    background-color: rgb(213, 223, 231);
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+#basketball{
+    text-align: center;
+    background-color: rgb(213, 223, 231);
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+#boxing{
+    text-align: center;
+    background-color: rgb(213, 223, 231);
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+#golf{
+    text-align: center;
+    background-color: rgb(213, 223, 231);
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+#tennis{
+    text-align: center;
+    background-color: rgb(213, 223, 231);
+    margin-top: 10px;
+    padding: 10px 40px;
+}
