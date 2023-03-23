@@ -1,0 +1,50 @@
+body{
+    color: white;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+.hidden-content{
+    position: relative;
+    margin-top: 40px;
+    width: 30%;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 15px;
+    height: 40vh;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    display: none;
+}
+.hidden-content.reveal-btn{
+    display: block;
+}
+
+
+.reveal-btn{
+    cursor: pointer;
+    margin-top: 40px;
+    width: 20%;
+    height: 30vh;
+    font-size: 1rem;
+    color: white;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+
+}
+
