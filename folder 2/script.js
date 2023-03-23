@@ -8,7 +8,8 @@ function revealContent(){
         hiddenContent.classList.remove('reveal-btn')
     }
     else{
-        (hiddenContent.classList.add('reveal-btn'));
+       (hiddenContent.classList.add('reveal-btn'))
+        
     }
 }
 
