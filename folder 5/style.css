@@ -50,6 +50,11 @@ body{
     animation-name: animatemodal;
     animation-duration: .4s;
 
+    display: none;
+    position: fixed;
+    z-index: 1;
+
+
 }
 
 #close-btn{
@@ -57,4 +62,16 @@ body{
     cursor: pointer;
     font-size: 3rem;
     color: red;
+}
+
+
+@keyframes animatemodal{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
 }
