@@ -1,0 +1,21 @@
+body{
+    background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg") no-repeat center  center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+#open-btn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 2rem;
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    transition: .5s;
+
+}
