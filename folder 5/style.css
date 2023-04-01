@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
 body{
     background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg") no-repeat center  center/cover;
     height: 100vh;
@@ -8,9 +15,9 @@ body{
     position: absolute;
     top: 70%;
     left: 10%;
-    width: 350px;
+    width: 280px;
     height: 80px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: transparent;
     color: white;
     border: solid 2px white;
@@ -18,4 +25,36 @@ body{
     box-shadow: 0 0 3px black;
     transition: .5s;
 
+}
+
+#open-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#modal-container{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-name: animatemodal;
+    animation-duration: .4s;
+
+}
+
+#close-btn{
+    font-size:  3rem;
+    cursor: pointer;
+    font-size: 3rem;
+    color: red;
 }
