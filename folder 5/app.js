@@ -2,7 +2,7 @@ let openBtn = document.getElementById('open-btn')
 let modalcontainer = document.getElementById('modal-container')
 let closeBtn = document.getElementById('close-btn')
 
-openBtn.addEventListener('click', function(){
+openBtn.addEventListener('mouseover', function(){
     modalcontainer.style.display = 'block';
 
 });
